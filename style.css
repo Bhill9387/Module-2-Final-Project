@@ -140,7 +140,7 @@ nav {
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
-  color: #243e63;
+  /* color: #243e63; */
 }
 
 .nav__buttons {
@@ -242,6 +242,101 @@ header .row {
     justify-content: space-between;
 }
 
+#about-me .hero-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+  flex-wrap: wrap;
+}
+
+.hero-left {
+  flex: 1;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-right img {
+  max-width: 100%;
+  height: auto;
+}
+
+#about-me h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+#about-me .purple {
+  color: #6415ff;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.about-description {
+  font-size: 18px;
+  color: #4a5568;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.email-form {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.email-input {
+  padding: 12px 20px;
+  border: 1px solid #cbd5e1;
+  border-radius: 9999px;
+  font-size: 14px;
+  width: 280px;
+  max-width: 100%;
+  outline: none;
+}
+
+.btn-primary {
+  background-color: #6415ff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 9999px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #4b11cc;
+}
+
+.trusted-text {
+  font-size: 12px;
+  color: #a0aec0;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.logo-row {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.logo-row img {
+  height: 32px;
+  object-fit: contain;
+}
 
 /* 
 
