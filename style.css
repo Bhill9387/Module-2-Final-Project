@@ -51,16 +51,22 @@ NAVBAR ↓
 
 nav {
     display: flex;
-    padding-top: 32px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .nav__row {
    display: flex;
    align-items: center;
-   justify-content: flex-start;
-   gap: 40px;
-   max-width: 1200px;
-   margin: 0 auto;
+   justify-content: space-between;
+   width: 100%;
    padding: 20px 40px;
 }
 
@@ -69,13 +75,40 @@ nav {
     align-items: center;
     gap: 12px;
     margin-right: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .nav__logo--text {
     font-size: 20px;
     font-weight: 900;
     color: #243e63;
+}
+
+.nav__auth {
+  display: flex;
+  border: 1px solid #cbd5e1;
+  border-radius: 9999px;
+  overflow: hidden;
+  height: 40px;
+}
+
+.auth-tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: white;
+  height: 100%;
+}
+
+.signup-tab {
+  border-radius: 50px;
+  background-color: #6415ff;
+  color: white;
+  padding: 10px 15px
 }
 
 .nav__logo img {
@@ -127,7 +160,6 @@ nav {
 .login-btn {
   border: 1px solid #cbd5e1;
   color: #243e63;
-  margin-top: 40px;
 }
 
 .signup-btn {
