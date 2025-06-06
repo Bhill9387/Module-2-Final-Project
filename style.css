@@ -344,7 +344,7 @@ FEATURES ↓
 
 */
 #features {
-  position: relative;
+  text-align: center;
 }
 
 section {
@@ -375,8 +375,9 @@ section {
   text-transform: uppercase;
 }
 
-#features .section__title {
+ .section__title {
   font-size: 36px;
+  
 }
 
 #features .section__para {
@@ -401,6 +402,26 @@ section {
 .feature {
   width: auto;
   max-width: 384px;
+}
+
+.feature__row {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.feature__row {
+  padding: 32px;
+  margin: 0 16px;
+}
+
+.feature__para {
+  margin-top: 4px;
+  line-height: 2;
+}
+
+.feature__para {
+  max-width: none;
 }
 
 /* 
