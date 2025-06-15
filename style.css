@@ -259,7 +259,7 @@ header .row {
 }
 
 .hero-right {
-  flex: 1;
+  flex: 2;
   display: flex;
   justify-content: center;
 }
@@ -288,6 +288,7 @@ header .row {
 }
 
 .email-form {
+  position: relative;
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
@@ -304,6 +305,8 @@ header .row {
 }
 
 .btn-primary {
+  position: absolute;
+  left: 160px;
   background-color: #6415ff;
   color: white;
   padding: 12px 24px;
@@ -359,6 +362,7 @@ FEATURES ↓
   width: 100%;
   max-width: 1024px;
   margin: 0 auto 48px auto;
+  margin-top: 50px;
 }
 
 .section__tag {
