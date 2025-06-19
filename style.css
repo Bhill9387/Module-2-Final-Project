@@ -686,6 +686,21 @@ VALUES ↓
 }
 
 
+.container {
+  padding: 80px;
+}
+
+
+.highlight-purple {
+  color:#4b11cc !important;
+}
+
+.row {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 /*
 
 PRICING ↓
