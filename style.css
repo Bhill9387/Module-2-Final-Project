@@ -246,7 +246,7 @@ header .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 64px;
+  gap: 70px;
   flex-wrap: wrap;
 }
 
@@ -255,7 +255,7 @@ header .row {
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 27px;
 }
 
 .hero-right {
