@@ -244,9 +244,9 @@ header .row {
 
 #about-me .hero-row {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 70px;
+  gap: 100px;
   flex-wrap: wrap;
 }
 
@@ -255,11 +255,11 @@ header .row {
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  gap: 27px;
+  gap: 40px;
 }
 
 .hero-right {
-  flex: 2;
+  flex: 1;
   display: flex;
   justify-content: center;
 }
@@ -601,7 +601,7 @@ STEPS ↓
 .container {
   max-width: 1280px;
   width: 100%;
-  margin: 0 auto;
+  margin: 50px;
   padding: 0 32px;
 }
 
