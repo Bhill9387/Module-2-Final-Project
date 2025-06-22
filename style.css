@@ -679,26 +679,110 @@ VALUES ↓
 
 */
 
-#values .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+#values {
+  padding: 64px 16px;
+  background: #fff;
 }
-
-
-.container {
-  padding: 80px;
+.values__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 64px;
 }
-
-
-.highlight-purple {
-  color:#4b11cc !important;
+.values__description {
+  flex: 1;
+  max-width: 560px;
 }
-
-.row {
-  width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
+.section__tag {
+  color: #6415ff;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.section__title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.section__title .purple {
+  color: #6415ff;
+}
+.section__para {
+  font-size: 16px;
+  color: #4a5568;
+  margin-bottom: 32px;
+  line-height: 1.5;
+}
+.values__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.value__item {
+  flex: 1 1 220px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.value__icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1a202c;
+  flex-shrink: 0;
+}
+.value__icon--green {
+  background-color: #c6f6d5;
+}
+.value__icon--red {
+  background-color: #feb2b2;
+}
+.value__text h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.value__text p {
+  font-size: 14px;
+  color: #4a5568;
+  line-height: 1.4;
+}
+.btn-primary {
+  background-color: #6415ff;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 9999px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: #4b11cc;
+}
+.values__image--wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.values__image {
+  max-width: 100%;
+  height: auto;
+}
+/* Responsive */
+@media (max-width: 768px) {
+  .values__row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .values__list {
+    justify-content: center;
+  }
 }
 
 /*
