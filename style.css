@@ -702,8 +702,8 @@ VALUES ↓
   margin-bottom: 8px;
 }
 .section__title {
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 42px;
+  font-weight: 900;
   margin-bottom: 24px;
 }
 .section__title .purple {
@@ -797,6 +797,165 @@ PRICING ↓
     flex-direction: column;
     align-items: center;
 }
+
+.cards-container {
+display: flex;
+gap: 2rem;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.card {
+background: white;
+border: 1px solid #e2e8f0;
+border-radius: 12px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.06);
+width: 300px;
+display: flex;
+flex-direction: column;
+transition: transform 0.2s ease;
+}
+
+.card:hover {
+transform: translateY(-5px);
+}
+
+.card-header {
+background-color: #6b46c1;
+color: white;
+text-align: center;
+padding: 1rem;
+font-weight: bold;
+font-size: 1.25rem;
+}
+
+.card-price {
+text-align: center;
+padding: 1rem;
+border-bottom: 1px solid #e2e8f0;
+}
+
+.card-price h2 {
+font-size: 2rem;
+margin-bottom: 0.25rem;
+color: #2d3748;
+}
+
+.card-price p {
+margin: 0.25rem 0;
+color: #4a5568;
+}
+
+.card-features {
+padding: 1rem;
+flex-grow: 1;
+}
+
+.card-features ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.card-features li {
+padding: 0.5rem 0;
+text-align: center;
+color: #2d3748;
+}
+
+.buy-now {
+margin: 1rem;
+align-self: center;
+background-color: #f7fafc;
+color: #6b46c1;
+border: 2px solid #6b46c1;
+padding: 0.6rem 1.5rem;
+border-radius: 9999px;
+font-size: 1rem;
+font-weight: 600;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.buy-now:hover {
+background-color: #6b46c1;
+color: white;
+}
+
+
+
+
+
+
+/*Card 2*/
+.buy-now2 {
+margin: 1rem;
+align-self: center;
+background-color: rgb(17, 202, 202);
+color: white;
+padding: 0.6rem 1.5rem;
+border: none;
+border-radius: 9999px;
+font-size: 1rem;
+font-weight: 600;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.buy-now2:hover {
+color: white;
+}
+
+.card-header2 {
+background-color:white;
+border-top: 7px solid  rgb(17, 202, 202);
+border-radius: 5px;
+color: black;
+text-align: center;
+padding: 1rem;
+font-weight: bold;
+font-size: 1.25rem;
+}
+
+
+
+/*Card 3*/
+.buy-now3 {
+margin: 1rem;
+align-self: center;
+background-color:  rgb(114, 20, 20);
+color: white;
+padding: 0.6rem 1.5rem;
+border: none;
+border-radius: 9999px;
+font-size: 1rem;
+font-weight: 600;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.buy-now3:hover {
+color: white;
+}
+
+.card-header3 {
+background-color:white;
+border-top: 7px solid  rgb(114, 20, 20);
+border-radius: 5px;
+color: black;
+text-align: center;
+padding: 1rem;
+font-weight: bold;
+font-size: 1.25rem;
+}
+
+
+
+
+
+
+
+
 
 /* 
 
